@@ -1,0 +1,56 @@
+
+docker cp Fornecedor2.xls wso2ei:home/wso2carbon/wso2ei-6.6.0/samples/Fornecedor2.xls
+
+docker cp Polo2Obras.xls wso2ei:home/wso2carbon/wso2ei-6.6.0/samples/Polo2Obras.xls
+
+
+
+docker cp wso2ei:/home/wso2carbon/wso2ei-6.6.0/samples/data-services/resources/Products.xls Products.xls
+
+
+
+
+
+//TP1 stuff
+
+docker images
+
+docker ps -al
+
+docker run -d -p 9445:9445 [IMAGENAME]
+
+docker rename thirsty_euler wso2_bp
+
+docker start wso2_bp
+
+docker attach wso2_bp
+
+docker exec -t -i wso2_bp /bin/bash
+
+
+//docker -> pc
+
+docker cp wso2_bp:/home/wso2carbon/wso2ei-6.6.0/wso2/business-process/conf/activiti.xml ./activiti.xml
+
+docker cp wso2_bp:/home/wso2carbon/wso2ei-6.6.0/wso2/business-process/repository/deployment/server/jaggeryapps/bpmn-explorer/assets/dynamicFormGen.js ./dynamicFormGen.js
+
+docker cp wso2_bp:/home/wso2carbon/wso2ei-6.6.0/wso2/business-process/repository/deployment/server/jaggeryapps/bpmn-explorer/js/actions.js ./actions.js
+
+
+//pc -> docker
+
+docker cp complex-type-1.0.jar wso2_bp:/home/wso2carbon/wso2ei-6.6.0/lib/complex-type-1.0.jar
+
+docker cp ./activiti.xml wso2_bp:/home/wso2carbon/wso2ei-6.6.0/wso2/business-process/conf/activiti.xml
+
+docker cp ./dynamicFormGen.js wso2_bp:/home/wso2carbon/wso2ei-6.6.0/wso2/business-process/repository/deployment/server/jaggeryapps/bpmn-explorer/assets/dynamicFormGen.js
+
+docker cp ./actions.js wso2_bp:/home/wso2carbon/wso2ei-6.6.0/wso2/business-process/repository/deployment/server/jaggeryapps/bpmn-explorer/js/actions.js
+
+
+
+
+
+
+
+
