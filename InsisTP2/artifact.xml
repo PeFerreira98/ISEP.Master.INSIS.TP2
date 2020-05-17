@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="InsisLibraryAPI" groupId="com.example.InsisTP2.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/InsisLibraryAPI.xml</file>
+    </artifact>
+    <artifact name="AreasConhecimentoPolo1EP" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/AreasConhecimentoPolo1EP.xml</file>
+    </artifact>
+    <artifact name="test" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/test.xml</file>
+    </artifact>
+    <artifact name="AreasConhecimentoPolo1" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/AreasConhecimentoPolo1.xml</file>
+    </artifact>
+</artifacts>

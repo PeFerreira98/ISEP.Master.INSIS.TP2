@@ -1,0 +1,54 @@
+<data name="ObrasPolos2" serviceNamespace="ObrasPolos2" transports="http https local">
+   <config enableOData="false" id="Polo2ObrasSrc">
+      <property name="excel_datasource">/home/wso2carbon/wso2ei-6.6.0/samples/Polo2Obras.xls</property>
+   </config>
+   <config enableOData="false" id="Polo2ObrasQuery">
+      <property name="driverClassName">org.wso2.carbon.dataservices.sql.driver.TDriver</property>
+      <property name="url">jdbc:wso2:excel:filePath=/home/wso2carbon/wso2ei-6.6.0/samples/Polo2Obras.xls</property>
+   </config>
+   <query id="getObras" useConfig="Polo2ObrasSrc">
+      <excel>
+         <workbookname>Sheet1</workbookname>
+         <hasheader>true</hasheader>
+         <startingrow>2</startingrow>
+         <maxrowcount>306</maxrowcount>
+         <headerrow>1</headerrow>
+      </excel>
+      <result element="Obras" rowName="Obra">
+         <element column="id" name="id" xsdType="long"/>
+         <element column="autor1" name="autor1" xsdType="string"/>
+         <element column="autor2" name="autor2" xsdType="string"/>
+         <element column="isbn" name="isbn" xsdType="string"/>
+         <element column="titulo" name="titulo" xsdType="string"/>
+         <element column="preco" name="preco" xsdType="double"/>
+         <element column="estado" name="estado" xsdType="string"/>
+         <element column="tipo" name="tipo" xsdType="string"/>
+         <element column="adc" name="adc" xsdType="int"/>
+         <element column="ano" name="ano" xsdType="int"/>
+      </result>
+   </query>
+   <query id="getObrasByID" useConfig="Polo2ObrasQuery">
+      <sql>SELECT id, autor1, autor2, ISBN, titulo, preco, estado, tipo, Adc, ano FROM Sheet1 WHERE id=?</sql>
+      <result element="Obras" rowName="Obra">
+         <element column="id" name="id" xsdType="string"/>
+         <element column="autor1" name="autor1" xsdType="string"/>
+         <element column="autor2" name="autor2" xsdType="string"/>
+         <element column="ISBN" name="ISBN" xsdType="string"/>
+         <element column="titulo" name="titulo" xsdType="string"/>
+         <element column="preco" name="preco" xsdType="string"/>
+         <element column="estado" name="estado" xsdType="string"/>
+         <element column="tipo" name="tipo" xsdType="string"/>
+         <element column="Adc" name="Adc" xsdType="string"/>
+         <element column="ano" name="ano" xsdType="string"/>
+      </result>
+      <param name="id" optional="false" sqlType="STRING"/>
+   </query>
+   <resource method="GET" path="/allobras">
+      <call-query href="getObras"/>
+   </resource>
+   <resource method="GET" path="/getobrabyid">
+      <call-query href="getObrasByID">
+         <with-param name="id" query-param="id"/>
+      </call-query>
+   </resource>
+</data>

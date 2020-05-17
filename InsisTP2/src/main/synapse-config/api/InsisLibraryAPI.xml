@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/library" name="InsisLibraryAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/getareasconhecimento">
+        <inSequence>
+            <log description="Log Request" level="custom">
+                <property name="RequestLog" value="Resource GetAreasConhecimentoPolo1 Called"/>
+            </log>
+            <send>
+                <endpoint key="AreasConhecimentoPolo1"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <datamapper config="gov:datamapper/ResponseAdcMapping.dmc" description="Request Response Mapping" inputSchema="gov:datamapper/ResponseAdcMapping_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/ResponseAdcMapping_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/ResponseAdcMapping_xsltStyleSheet.xml"/>
+            <log description="Request Response Log" level="custom">
+                <property name="Request Output Log" value="Response Log"/>
+            </log>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <log/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

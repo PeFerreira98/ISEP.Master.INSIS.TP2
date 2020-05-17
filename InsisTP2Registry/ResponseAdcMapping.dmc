@@ -1,0 +1,23 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+var STRING_TO_NUMBER_4_0 = '';
+
+var count_i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10 = 0;
+outputroot =  [];
+
+for(i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10 in inputroot){
+STRING_TO_NUMBER_4_0 = Number(inputroot[i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10].id);
+outputroot[count_i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10] =  {};
+outputroot[count_i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10]['_id'] = Number(STRING_TO_NUMBER_4_0);
+outputroot[count_i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10].name = inputroot[i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10].Desc;
+outputroot[count_i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10].text = inputroot[i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10].Desc;
+
+count_i_inputroot_28469daa_0f89_4f82_8c17_bcfc69443e10++;
+}
+return outputroot;
+};
+
+
+
+
+
