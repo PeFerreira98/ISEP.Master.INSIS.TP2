@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="defaultFaultSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log category="FATAL" description="DefLog" level="full">
+        <property name="MainMessage" value="You just entered defaut fault sequence"/>
+    </log>
+    <respond description="DefRespond"/>
+</sequence>

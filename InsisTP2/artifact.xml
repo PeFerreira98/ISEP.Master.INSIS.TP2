@@ -17,4 +17,7 @@
     <artifact name="ObrasPolo2ByTituloAnoEP" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/ObrasPolo2ByTituloAnoEP.xml</file>
     </artifact>
+    <artifact name="defaultFaultSequence" groupId="com.example.InsisTP2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/defaultFaultSequence.xml</file>
+    </artifact>
 </artifacts>

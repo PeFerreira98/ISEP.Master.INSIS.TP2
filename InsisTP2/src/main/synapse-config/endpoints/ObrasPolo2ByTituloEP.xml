@@ -9,6 +9,5 @@
             <retriesBeforeSuspension>0</retriesBeforeSuspension>
         </markForSuspension>
     </http>
-    <property name="uri.var.titulo" value="get-property('uri.var.titulo')"/>
     <description>ObrasPolo2ByTituloEP Desc</description>
 </endpoint>
