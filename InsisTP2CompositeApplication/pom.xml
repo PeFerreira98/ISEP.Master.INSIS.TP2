@@ -13,11 +13,13 @@
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
     <com.example.InsisTP2.resource_._ResponseMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping>
     <com.example.InsisTP2.resource_._AdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_inputSchema>
-    <com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>
     <com.example.InsisTP2.resource_._ResponseAdcMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping>
+    <com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>
     <com.example.InsisTP2.resource_._ResponseMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_outputSchema>
     <com.example.InsisTP2.resource_._ResponseAdcMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_outputSchema>
+    <com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloEP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloEP>
     <com.example.InsisTP2.resource_._ResponseAdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_inputSchema>
+    <com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloAnoEP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloAnoEP>
     <com.example.InsisTP2.resource_._AdcMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_xsltStyleSheet>
     <com.example.InsisTP2.resource_._ResponseMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_inputSchema>
     <com.example.InsisTP2.resource_._AdcMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping>
@@ -97,6 +99,18 @@
       <artifactId>AdcMapping_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.endpoint</groupId>
+      <artifactId>ObrasPolo2ByTituloAnoEP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.endpoint</groupId>
+      <artifactId>ObrasPolo2ByTituloEP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>

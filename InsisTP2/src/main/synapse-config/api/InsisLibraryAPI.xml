@@ -21,4 +21,40 @@
             <respond/>
         </faultSequence>
     </resource>
+    <resource methods="POST" uri-template="/getobradetail">
+        <inSequence>
+            <property description="Property Titulo" expression="json-eval($.titulo)" name="uri.var.titulo" scope="default" type="STRING"/>
+            <property description="Property Ano" expression="json-eval($.ano)" name="uri.var.ano" scope="default" type="STRING"/>
+            <log description="Log Payload" level="custom">
+                <property name="RequestLog" value="Get Obra Log"/>
+                <property expression="get-property('uri.var.titulo')" name="Titulo"/>
+                <property expression="get-property('uri.var.ano')" name="Ano"/>
+            </log>
+            <switch description="Check Ano" source="get-property('uri.var.ano')">
+                <case regex="[0-9]{4}">
+                    <log description="Log Properties uri.var" level="custom">
+                        <property expression="get-property('uri.var.titulo')" name="Titulo"/>
+                        <property expression="get-property('uri.var.ano')" name="Ano"/>
+                    </log>
+                    <send>
+                        <endpoint key="ObrasPolo2ByTituloAnoEP"/>
+                    </send>
+                </case>
+                <default>
+                    <log description="Log Property uri.var.titulo" level="custom">
+                        <property expression="get-property('uri.var.titulo')" name="Titulo"/>
+                    </log>
+                    <send description="Send Request with param titulo">
+                        <endpoint key="ObrasPolo2ByTituloEP"/>
+                    </send>
+                </default>
+            </switch>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
 </api>

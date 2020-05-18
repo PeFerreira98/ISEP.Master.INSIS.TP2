@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="ObrasPolo2ByTituloAnoEP" xmlns="http://ws.apache.org/ns/synapse">
+    <http method="get" trace="enable" uri-template="http://127.0.0.1:8280/services/ObrasPolos2/getobrasbytituloano?titulo={uri.var.titulo}&amp;ano={uri.var.ano}">
+        <suspendOnFailure>
+            <initialDuration>-1</initialDuration>
+            <progressionFactor>1.0</progressionFactor>
+        </suspendOnFailure>
+        <markForSuspension>
+            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+        </markForSuspension>
+    </http>
+    <property name="uri.var.ano" value="get-property('uri.var.ano')"/>
+    <property name="uri.var.titulo" value="get-property('uri.var.titulo')"/>
+    <description>ObrasPolo2ByTituloAnoEP Desc</description>
+</endpoint>
