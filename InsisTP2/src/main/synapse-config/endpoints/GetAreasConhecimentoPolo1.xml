@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<endpoint name="ObrasPolo2ByTituloEP" xmlns="http://ws.apache.org/ns/synapse">
-    <http method="get" trace="enable" uri-template="http://127.0.0.1:8280/services/ObrasPolos2/getobrasbytitulo?titulo={uri.var.titulo}">
+<endpoint name="GetAreasConhecimentoPolo1" xmlns="http://ws.apache.org/ns/synapse">
+    <http method="get" uri-template="http://5dbf329fe295da001400b4dd.mockapi.io/polo1/AdC">
         <suspendOnFailure>
             <initialDuration>-1</initialDuration>
             <progressionFactor>1.0</progressionFactor>
@@ -9,5 +9,5 @@
             <retriesBeforeSuspension>0</retriesBeforeSuspension>
         </markForSuspension>
     </http>
-    <description>ObrasPolo2ByTituloEP Desc</description>
+    <description>desc</description>
 </endpoint>

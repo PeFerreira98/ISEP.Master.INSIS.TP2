@@ -1,0 +1,38 @@
+<Obras>
+    <Obra>
+        <id>1</id>
+        <autor1>Adélaïde , Inès </autor1>
+        <autor2>n/a</autor2>
+        <ISBN>791842752-1</ISBN>
+        <titulo>diam erat fermentum justo nec condimentum neque</titulo>
+        <preco>1.7</preco>
+        <estado>retirado</estado>
+        <tipo>Capa mole</tipo>
+        <Adc>1</Adc>
+        <ano>1930</ano>
+    </Obra>
+    <Obra>
+        <id>1</id>
+        <autor1>Adélaïde , Inès </autor1>
+        <autor2>n/a</autor2>
+        <ISBN>791842752-1</ISBN>
+        <titulo>diam erat fermentum justo nec condimentum neque</titulo>
+        <preco>1.7</preco>
+        <estado>retirado</estado>
+        <tipo>Capa mole</tipo>
+        <Adc>1</Adc>
+        <ano>1930</ano>
+    </Obra>
+    <Obra>
+        <id>1</id>
+        <autor1>Adélaïde , Inès </autor1>
+        <autor2>n/a</autor2>
+        <ISBN>791842752-1</ISBN>
+        <titulo>diam erat fermentum justo nec condimentum neque</titulo>
+        <preco>1.7</preco>
+        <estado>retirado</estado>
+        <tipo>Capa mole</tipo>
+        <Adc>1</Adc>
+        <ano>1930</ano>
+    </Obra>
+</Obras>

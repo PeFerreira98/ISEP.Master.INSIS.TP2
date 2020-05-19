@@ -6,7 +6,7 @@
                 <property name="RequestLog" value="Resource GetAreasConhecimentoPolo1 Called"/>
             </log>
             <send>
-                <endpoint key="AreasConhecimentoPolo1"/>
+                <endpoint key="GetAreasConhecimentoPolo1"/>
             </send>
         </inSequence>
         <outSequence>
@@ -27,11 +27,45 @@
                 <property expression="get-property('uri.var.titulo')" name="uri.var.titulo"/>
                 <property expression="get-property('uri.var.ano')" name="uri.var.ano"/>
             </log>
-            <send>
-                <endpoint key="ObrasPolo2ByTituloAnoEP"/>
-            </send>
+            <clone continueParent="true" id="Clone Obras From Polos" sequential="true">
+                <target>
+                    <sequence>
+                        <call>
+                            <endpoint key="GetAllObrasPolo1EP"/>
+                        </call>
+                        <datamapper config="gov:datamapper/JsonOutputObra.dmc" description="Map To generic" inputSchema="gov:datamapper/JsonOutputObra_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonOutputObra_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/JsonOutputObra_xsltStyleSheet.xml"/>
+                        <send/>
+                    </sequence>
+                </target>
+                <target>
+                    <sequence>
+                        <call>
+                            <endpoint key="GetObrasPolo2ByTituloAnoEP"/>
+                        </call>
+                        <datamapper config="gov:datamapper/MapPoloXMLtoJSON.dmc" description="Map to Generic Json" inputSchema="gov:datamapper/MapPoloXMLtoJSON_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/MapPoloXMLtoJSON_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/MapPoloXMLtoJSON_xsltStyleSheet.xml"/>
+                        <send/>
+                    </sequence>
+                </target>
+            </clone>
         </inSequence>
         <outSequence>
+            <log description="Log Before Agg" level="custom">
+                <property name="LogBeforeAgg" value="Step Before Aggregate Mediator"/>
+            </log>
+            <property name="closingprop" scope="default">
+                <value xmlns=""/>
+            </property>
+            <aggregate>
+                <completeCondition>
+                    <messageCount max="3" min="2"/>
+                </completeCondition>
+                <onComplete enclosingElementProperty="closingprop" expression="$body/*[1]">
+                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+                    <log description="Log After Agg">
+                        <property name="LogAfterAgg" value="Log after Aggregator mediator usage"/>
+                    </log>
+                </onComplete>
+            </aggregate>
             <respond/>
         </outSequence>
         <faultSequence>

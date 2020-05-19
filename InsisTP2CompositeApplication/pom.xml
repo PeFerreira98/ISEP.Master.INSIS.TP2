@@ -9,23 +9,32 @@
   <name>InsisTP2CompositeApplication</name>
   <description>InsisTP2CompositeApplication</description>
   <properties>
-    <com.example.InsisTP2.endpoint_._AreasConhecimentoPolo1>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._AreasConhecimentoPolo1>
-    <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
-    <com.example.InsisTP2.resource_._ResponseMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping>
-    <com.example.InsisTP2.resource_._AdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_inputSchema>
-    <com.example.InsisTP2.resource_._ResponseAdcMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping>
-    <com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>
-    <com.example.InsisTP2.resource_._ResponseMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_outputSchema>
-    <com.example.InsisTP2.resource_._ResponseAdcMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_outputSchema>
-    <com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloEP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloEP>
-    <com.example.InsisTP2.resource_._ResponseAdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_inputSchema>
-    <com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloAnoEP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._ObrasPolo2ByTituloAnoEP>
-    <com.example.InsisTP2.resource_._AdcMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_xsltStyleSheet>
-    <com.example.InsisTP2.resource_._ResponseMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_inputSchema>
-    <com.example.InsisTP2.resource_._AdcMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping>
+    <com.example.InsisTP2.sequence_._defaultFaultSequence>capp/EnterpriseServiceBus</com.example.InsisTP2.sequence_._defaultFaultSequence>
+    <com.example.InsisTP2.resource_._JsonOutputObra>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._JsonOutputObra>
+    <com.example.InsisTP2.resource_._MapPoloXMLtoJSON_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._MapPoloXMLtoJSON_inputSchema>
     <com.example.InsisTP2.resource_._AdcMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_outputSchema>
-    <com.example.InsisTP2.resource_._ResponseAdcMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_xsltStyleSheet>
+    <com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_xsltStyleSheet>
+    <com.example.InsisTP2.endpoint_._GetAreasConhecimentoPolo1>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._GetAreasConhecimentoPolo1>
+    <com.example.InsisTP2.resource_._AdcMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping>
+    <com.example.InsisTP2.resource_._AdcMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_xsltStyleSheet>
+    <com.example.InsisTP2.resource_._ResponseMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_outputSchema>
+    <com.example.InsisTP2.resource_._JsonOutputObra_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._JsonOutputObra_inputSchema>
+    <com.example.InsisTP2.resource_._ResponseMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping>
+    <com.example.InsisTP2.resource_._ResponseAdcMapping>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping>
+    <com.example.InsisTP2.resource_._MapPoloXMLtoJSON>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._MapPoloXMLtoJSON>
+    <com.example.InsisTP2.resource_._MapPoloXMLtoJSON_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._MapPoloXMLtoJSON_outputSchema>
     <com.example.InsisTP2.api_._InsisLibraryAPI>capp/EnterpriseServiceBus</com.example.InsisTP2.api_._InsisLibraryAPI>
+    <com.example.InsisTP2.resource_._ResponseAdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_inputSchema>
+    <com.example.InsisTP2.endpoint_._GetAllObrasPolo1EP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._GetAllObrasPolo1EP>
+    <com.example.InsisTP2.resource_._JsonOutputObra_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._JsonOutputObra_xsltStyleSheet>
+    <com.example.InsisTP2.resource_._ResponseAdcMapping_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_outputSchema>
+    <com.example.InsisTP2.resource_._MapPoloXMLtoJSON_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._MapPoloXMLtoJSON_xsltStyleSheet>
+    <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
+    <com.example.InsisTP2.resource_._ResponseMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseMapping_inputSchema>
+    <com.example.InsisTP2.endpoint_._GetObrasPolo2ByTituloAnoEP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._GetObrasPolo2ByTituloAnoEP>
+    <com.example.InsisTP2.resource_._JsonOutputObra_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._JsonOutputObra_outputSchema>
+    <com.example.InsisTP2.resource_._AdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_inputSchema>
+    <com.example.InsisTP2.resource_._ResponseAdcMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_xsltStyleSheet>
   </properties>
   <dependencies>
     <dependency>
@@ -35,10 +44,16 @@
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>com.example.InsisTP2.resource</groupId>
-      <artifactId>ResponseAdcMapping_inputSchema</artifactId>
+      <groupId>com.example.InsisTP2.endpoint</groupId>
+      <artifactId>GetAllObrasPolo1EP</artifactId>
       <version>1.0.0</version>
-      <type>zip</type>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.sequence</groupId>
+      <artifactId>defaultFaultSequence</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
@@ -49,24 +64,6 @@
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
       <artifactId>ResponseAdcMapping</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.InsisTP2.resource</groupId>
-      <artifactId>AdcMapping_inputSchema</artifactId>
-      <version>1.0.0</version>
-      <type>zip</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.InsisTP2.endpoint</groupId>
-      <artifactId>AreasConhecimentoPolo1</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.InsisTP2.resource</groupId>
-      <artifactId>ResponseAdcMapping_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>
@@ -83,14 +80,14 @@
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>com.example.InsisTP2.api</groupId>
-      <artifactId>InsisLibraryAPI</artifactId>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>JsonOutputObra_xsltStyleSheet</artifactId>
       <version>1.0.0</version>
-      <type>xml</type>
+      <type>zip</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
-      <artifactId>AdcMapping</artifactId>
+      <artifactId>MapPoloXMLtoJSON_xsltStyleSheet</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>
@@ -101,20 +98,86 @@
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>com.example.InsisTP2.endpoint</groupId>
-      <artifactId>ObrasPolo2ByTituloAnoEP</artifactId>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>JsonOutputObra</artifactId>
       <version>1.0.0</version>
-      <type>xml</type>
+      <type>zip</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.endpoint</groupId>
-      <artifactId>ObrasPolo2ByTituloEP</artifactId>
+      <artifactId>GetAreasConhecimentoPolo1</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
       <artifactId>ResponseMapping</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>MapPoloXMLtoJSON</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>ResponseAdcMapping_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>AdcMapping_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>ResponseAdcMapping_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.api</groupId>
+      <artifactId>InsisLibraryAPI</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.endpoint</groupId>
+      <artifactId>GetObrasPolo2ByTituloAnoEP</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>JsonOutputObra_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>AdcMapping</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>MapPoloXMLtoJSON_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>JsonOutputObra_outputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>MapPoloXMLtoJSON_inputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
     </dependency>

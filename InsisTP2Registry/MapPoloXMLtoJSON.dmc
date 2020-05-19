@@ -1,0 +1,28 @@
+map_S_Obras_S_root = function(){ 
+var outputroot={};
+var TO_STRING_4_0 = '';
+var TO_STRING_6_0 = '';
+
+var count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1 = 0;
+outputroot =  [];
+
+for(i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1 in inputObras.Obra){
+TO_STRING_4_0 = (inputObras.Obra[i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].ano).toString();
+TO_STRING_6_0 = (inputObras.Obra[i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].id).toString();
+outputroot[count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1] =  {};
+outputroot[count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].id = TO_STRING_6_0;
+outputroot[count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].ISBN = inputObras.Obra[i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].ISBN;
+outputroot[count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].Title = inputObras.Obra[i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1].titulo;
+outputroot[count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1]['Ano de Publicação'] = TO_STRING_4_0;
+
+count_i_Obra_96121a82_4f08_48d5_95e3_1d3b07a7d6e1++;
+}
+return outputroot;
+};
+
+
+
+
+
+
+

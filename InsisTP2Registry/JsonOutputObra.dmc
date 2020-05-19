@@ -1,0 +1,22 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+var count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527 = 0;
+outputroot =  [];
+
+for(i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527 in inputroot){
+outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527] =  {};
+outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].id = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].id;
+outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].ISBN = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].ISBN;
+outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].Title = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].Title;
+outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527]['Ano de Publicação'] = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527]['Ano de Publicação'];
+
+count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527++;
+}
+return outputroot;
+};
+
+
+
+
+

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<endpoint name="ObrasPolo2ByTituloAnoEP" xmlns="http://ws.apache.org/ns/synapse">
+<endpoint name="GetObrasPolo2ByTituloAnoEP" xmlns="http://ws.apache.org/ns/synapse">
     <http method="get" trace="enable" uri-template="http://127.0.0.1:8280/services/ObrasPolos2/getobrasbytituloano?titulo={uri.var.titulo}&amp;ano={uri.var.ano}">
         <suspendOnFailure>
             <initialDuration>-1</initialDuration>

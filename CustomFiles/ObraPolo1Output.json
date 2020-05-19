@@ -1,0 +1,18 @@
+[
+    {
+        "id": "289",
+        "ID_autores": [
+            249
+        ],
+        "ISBN": "346296131-4",
+        "Title": "amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum",
+        "Preço1": "17.6",
+        "# exemplares": "1",
+        "tipoID": "2",
+        "EstadosID": [
+            1
+        ],
+        "ID_AdC": "1",
+        "Ano de Publicação": "1893"
+    }
+]
