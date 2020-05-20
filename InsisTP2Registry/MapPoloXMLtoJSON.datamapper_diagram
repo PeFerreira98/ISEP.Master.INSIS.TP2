@@ -179,7 +179,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G1pHcZoaEeqnt4JozYFa8g"/>
     </children>
     <element xmi:type="datamapper:Output" href="MapPoloXMLtoJSON.datamapper#//@output"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nN1iU5oQEeqnt4JozYFa8g" x="915" y="-135" width="250" height="100"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nN1iU5oQEeqnt4JozYFa8g" x="772" y="-132" width="250" height="100"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_Opl7AJoREeqnt4JozYFa8g" type="2040" fontName=".AppleSystemUIFont">
     <children xmi:type="notation:Shape" xmi:id="_OpvE8JoREeqnt4JozYFa8g" type="3012" fontName=".AppleSystemUIFont">

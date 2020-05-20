@@ -3,6 +3,8 @@
 [Tt]arget/
 [Dd]eployment/
 
+.meta/
+
 .vs/
 .vscode/
 
