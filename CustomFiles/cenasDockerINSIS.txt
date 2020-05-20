@@ -1,12 +1,18 @@
 
+// TP2 Stuff
+
+docker run -it -p 8290:8290 -p 8253:8253 -p 5005:5005 --name wso2mi wso2/wso2mi -debug 5005
+
+docker run -it -p 8280:8280 -p 8243:8243 -p 9443:9443 --name wso2ei wso2/wso2ei-integrator
+
+docker exec -ti wso2ei bash
+
+docker attach wso2ei
+
+
 docker cp Fornecedor2.xls wso2ei:home/wso2carbon/wso2ei-6.6.0/samples/Fornecedor2.xls
 
 docker cp Polo2Obras.xls wso2ei:home/wso2carbon/wso2ei-6.6.0/samples/Polo2Obras.xls
-
-
-
-docker cp wso2ei:/home/wso2carbon/wso2ei-6.6.0/samples/data-services/resources/Products.xls Products.xls
-
 
 
 

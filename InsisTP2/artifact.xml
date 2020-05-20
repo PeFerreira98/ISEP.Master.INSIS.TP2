@@ -20,4 +20,10 @@
     <artifact name="GetAllObrasPolo1EP" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/GetAllObrasPolo1EP.xml</file>
     </artifact>
+    <artifact name="Polo3WSDL" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Polo3WSDL.xml</file>
+    </artifact>
+    <artifact name="polo3http" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/polo3http.xml</file>
+    </artifact>
 </artifacts>

@@ -1,0 +1,16 @@
+map_S_Obra_S_root = function(){ 
+var outputroot={};
+
+outputroot =  [];
+outputroot[0] =  {};
+outputroot[0].id = (inputObra.id).toString();
+outputroot[0].ISBN = inputObra.ISBN;
+outputroot[0].Title = inputObra.titulo;
+outputroot[0]['Ano de Publicação'] = (inputObra.ano).toString();
+return outputroot;
+};
+
+
+
+
+

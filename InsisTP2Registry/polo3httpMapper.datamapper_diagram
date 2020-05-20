@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_0U8E8JrgEeqxxsYGiAKK6A" type="DataMapper" name="polo3httpMapper.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_0lH2AJrgEeqxxsYGiAKK6A" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_cQCsEJrhEeqxxsYGiAKK6A" type="3002" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cQCsEprhEeqxxsYGiAKK6A" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_cQTKwJrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx0JrhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_cQcUsJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQcUsZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_cQc7wJrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQc7wZrhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTKwZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQTx0ZrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx05rhEeqxxsYGiAKK6A" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx0prhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQTx1JrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx1prhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_cQxr4JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQxr4ZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_cQxr4prhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQxr45rhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx1ZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQTx15rhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx2ZrhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_cQ610JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQ610ZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_cQ610prhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQ6105rhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx2JrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQTx2prhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx3JrhEeqxxsYGiAKK6A" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx25rhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQTx3ZrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx35rhEeqxxsYGiAKK6A" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx3prhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQTx4JrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQUY4JrhEeqxxsYGiAKK6A" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.6"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx4ZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQUY4ZrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQUY45rhEeqxxsYGiAKK6A" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.7"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY4prhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQUY5JrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cQUY5prhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_cRnZYJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRnZYZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_cRnZYprhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRnZY5rhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY5ZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQUY55rhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY6JrhEeqxxsYGiAKK6A" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cQUY6ZrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY6prhEeqxxsYGiAKK6A"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQCsEZrhEeqxxsYGiAKK6A"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="polo3httpMapper.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lH2AZrgEeqxxsYGiAKK6A" x="35" y="170" width="250" height="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_0lIdEJrgEeqxxsYGiAKK6A" type="2003" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_D1b-YJrhEeqxxsYGiAKK6A" type="3011" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_D1clcJrhEeqxxsYGiAKK6A" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_D1j6MJrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_D1j6MprhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_D1rO8JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1rO8ZrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_D1rO8prhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1rO85rhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1j6MZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D1khQJrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_D1khQprhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_D1yjsJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1yjsZrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_D1yjsprhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1yjs5rhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khQZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D1khQ5rhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_D1khRZrhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_D19i0JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1-J4JrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_D1-J4ZrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1-J4prhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khRJrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D1khRprhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_D1khSJrhEeqxxsYGiAKK6A" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_D2GFsJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.3/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D2GFsZrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_D2GswJrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.3/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D2GswZrhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khR5rhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D1khSZrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+        <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khSprhEeqxxsYGiAKK6A" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D1khS5rhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+        <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khTJrhEeqxxsYGiAKK6A"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1b-YZrhEeqxxsYGiAKK6A"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="polo3httpMapper.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lIdEZrgEeqxxsYGiAKK6A" x="755" y="205" width="250" height="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_F-3wEJrhEeqxxsYGiAKK6A" type="2040" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_F-5lQJrhEeqxxsYGiAKK6A" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_F-7acJrhEeqxxsYGiAKK6A" type="3013" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_F_pzMJrhEeqxxsYGiAKK6A" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_F_qaQJrhEeqxxsYGiAKK6A" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F_qaQZrhEeqxxsYGiAKK6A"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@leftContainer/@leftConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F_pzMZrhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:OperatorLeftContainer" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-7acZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_F-7acprhEeqxxsYGiAKK6A" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_F_tdkJrhEeqxxsYGiAKK6A" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_F_vSwJrhEeqxxsYGiAKK6A" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F_vSwZrhEeqxxsYGiAKK6A"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F_tdkZrhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-7ac5rhEeqxxsYGiAKK6A"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-5lQZrhEeqxxsYGiAKK6A"/>
+    </children>
+    <element xmi:type="datamapper:ToString" href="polo3httpMapper.datamapper#//@operators.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F-3wEZrhEeqxxsYGiAKK6A" x="400" y="120"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_JI0jkJrhEeqxxsYGiAKK6A" type="2040" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_JI1xsJrhEeqxxsYGiAKK6A" type="3012" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_JI4N8JrhEeqxxsYGiAKK6A" type="3013" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_JJdcwJrhEeqxxsYGiAKK6A" type="3014" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_JJeD0JrhEeqxxsYGiAKK6A" type="3015" fontName="Segoe UI">
+            <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@leftContainer/@leftConnectors.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JJeD0ZrhEeqxxsYGiAKK6A"/>
+          </children>
+          <element xmi:type="datamapper:OperatorLeftConnector" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@leftContainer/@leftConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JJdcwZrhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:OperatorLeftContainer" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@leftContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JI4N8ZrhEeqxxsYGiAKK6A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JI4N8prhEeqxxsYGiAKK6A" type="3016" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_JJggEJrhEeqxxsYGiAKK6A" type="3017" fontName="Segoe UI">
+          <children xmi:type="notation:Shape" xmi:id="_JJhHIJrhEeqxxsYGiAKK6A" type="3018" fontName="Segoe UI">
+            <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JJhHIZrhEeqxxsYGiAKK6A"/>
+          </children>
+          <element xmi:type="datamapper:OperatorRightConnector" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JJggEZrhEeqxxsYGiAKK6A"/>
+        </children>
+        <element xmi:type="datamapper:OperatorRightContainer" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@rightContainer"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JI4N85rhEeqxxsYGiAKK6A"/>
+      </children>
+      <element xmi:type="datamapper:OperatorBasicContainer" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JI1xsZrhEeqxxsYGiAKK6A"/>
+    </children>
+    <element xmi:type="datamapper:ToString" href="polo3httpMapper.datamapper#//@operators.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JI0jkZrhEeqxxsYGiAKK6A" x="410" y="320"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_0U8E8ZrgEeqxxsYGiAKK6A"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="polo3httpMapper.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_G95kIJrhEeqxxsYGiAKK6A" type="4001" source="_F_vSwJrhEeqxxsYGiAKK6A" target="_D1rO8JrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_G95kIZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G95kIprhEeqxxsYGiAKK6A" points="[-1, 0, -126, -86]$[123, 86, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G96yQJrhEeqxxsYGiAKK6A" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G96yQZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_J_vkgJrhEeqxxsYGiAKK6A" type="4001" source="_JJhHIJrhEeqxxsYGiAKK6A" target="_D2GFsJrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_J_vkgZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J_vkgprhEeqxxsYGiAKK6A" points="[-1, 0, -166, 44]$[163, -44, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J_wLkJrhEeqxxsYGiAKK6A" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J_wLkZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_c4rZYJrhEeqxxsYGiAKK6A" type="4001" source="_cQc7wJrhEeqxxsYGiAKK6A" target="_F_qaQJrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_c4rZYZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c4rZYprhEeqxxsYGiAKK6A" points="[-2, 0, -112, 4]$[109, -4, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c4tOkJrhEeqxxsYGiAKK6A" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c4tOkZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_dgF-sJrhEeqxxsYGiAKK6A" type="4001" source="_cQxr4prhEeqxxsYGiAKK6A" target="_D1yjsJrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_dgF-sZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dgF-sprhEeqxxsYGiAKK6A" points="[-2, 0, -562, -63]$[558, 63, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dgHM0JrhEeqxxsYGiAKK6A" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dgHM0ZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_d9WicJrhEeqxxsYGiAKK6A" type="4001" source="_cRnZYprhEeqxxsYGiAKK6A" target="_JJeD0JrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_d9WicZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d9WicprhEeqxxsYGiAKK6A" points="[-2, 0, -162, -38]$[159, 38, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d9XwkJrhEeqxxsYGiAKK6A" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d9XwkZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_eYu24JrhEeqxxsYGiAKK6A" type="4001" source="_cQ610prhEeqxxsYGiAKK6A" target="_D19i0JrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_eYu24ZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eYu24prhEeqxxsYGiAKK6A" points="[-2, 0, -562, -61]$[558, 61, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYvd8JrhEeqxxsYGiAKK6A" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYvd8ZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  </edges>
+</notation:Diagram>
