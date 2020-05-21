@@ -27,7 +27,7 @@
                 <property expression="get-property('uri.var.titulo')" name="uri.var.titulo"/>
                 <property expression="get-property('uri.var.ano')" name="uri.var.ano"/>
             </log>
-            <clone continueParent="true" id="Clone Obras From Polos" sequential="true">
+            <clone id="Clone Obras From Polos">
                 <target>
                     <sequence>
                         <call>
@@ -63,13 +63,16 @@
                         <call>
                             <endpoint key="polo3http"/>
                         </call>
-                        <datamapper config="gov:datamapper/polo3httpMapper.dmc" description="Map To Generic JSON" inputSchema="gov:datamapper/polo3httpMapper_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/polo3httpMapper_outputSchema.json" outputType="XML" xsltStyleSheet="gov:datamapper/polo3httpMapper_xsltStyleSheet.xml"/>
+                        <datamapper config="gov:datamapper/polo3httpMapper.dmc" description="Map To Generic JSON" inputSchema="gov:datamapper/polo3httpMapper_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/polo3httpMapper_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/polo3httpMapper_xsltStyleSheet.xml"/>
                         <log description="c3">
                             <property name="c3" value="c3"/>
                         </log>
                     </sequence>
                 </target>
             </clone>
+            <log description="Before Send" level="custom">
+                <property name="BFSend" value="Log Before Send Messages"/>
+            </log>
             <send/>
         </inSequence>
         <outSequence>
@@ -81,16 +84,16 @@
             </property>
             <aggregate>
                 <completeCondition>
-                    <messageCount max="3" min="2"/>
+                    <messageCount max="3" min="3"/>
                 </completeCondition>
-                <onComplete enclosingElementProperty="closingprop" expression="$body/*[1]">
+                <onComplete enclosingElementProperty="closingprop" expression="//*[local-name() = 'Desc']">
                     <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-                    <log description="Log After Agg">
+                    <log description="Log After Agg" level="full">
                         <property name="LogAfterAgg" value="Log after Aggregator mediator usage"/>
                     </log>
+                    <send/>
                 </onComplete>
             </aggregate>
-            <respond/>
         </outSequence>
         <faultSequence>
             <sequence key="defaultFaultSequence"/>

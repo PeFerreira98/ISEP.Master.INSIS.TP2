@@ -1,164 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_0U8E8JrgEeqxxsYGiAKK6A" type="DataMapper" name="polo3httpMapper.datamapper_diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_0lH2AJrgEeqxxsYGiAKK6A" type="2002" fontName="Segoe UI">
-    <children xmi:type="notation:Shape" xmi:id="_cQCsEJrhEeqxxsYGiAKK6A" type="3002" fontName="Segoe UI">
-      <children xmi:type="notation:DecorationNode" xmi:id="_cQCsEprhEeqxxsYGiAKK6A" type="5002"/>
-      <children xmi:type="notation:Shape" xmi:id="_cQTKwJrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx0JrhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_cQcUsJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
-          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQcUsZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_cQc7wJrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
-          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQc7wZrhEeqxxsYGiAKK6A"/>
-        </children>
+    <children xmi:type="notation:Shape" xmi:id="_wuXDAJrkEeq0mfcBntG1rw" type="3002" fontName=".AppleSystemUIFont">
+      <children xmi:type="notation:DecorationNode" xmi:id="_wuXDAprkEeq0mfcBntG1rw" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_wuXqEJrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wuXqEprkEeq0mfcBntG1rw" type="5001"/>
         <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTKwZrhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuXqEZrkEeq0mfcBntG1rw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQTx0ZrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx05rhEeqxxsYGiAKK6A" type="5001"/>
+      <children xmi:type="notation:Shape" xmi:id="_wuXqE5rkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wuYRIJrkEeq0mfcBntG1rw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_wuatYJrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wuatYprkEeq0mfcBntG1rw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_wubUcJrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wubUcprkEeq0mfcBntG1rw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_wucikJrkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wucikZrkEeq0mfcBntG1rw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wucikprkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wucik5rkEeq0mfcBntG1rw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wubUcZrkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wubUc5rkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wubUdZrkEeq0mfcBntG1rw" type="5001"/>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wubUdJrkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wubUdprkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wubUeJrkEeq0mfcBntG1rw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_wugM8JrkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.2/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wugM8ZrkEeq0mfcBntG1rw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wugM8prkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.2/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wugM85rkEeq0mfcBntG1rw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wubUd5rkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wubUeZrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wubUe5rkEeq0mfcBntG1rw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_wuiCIJrkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.3/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuiCIZrkEeq0mfcBntG1rw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wuiCIprkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.3/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuiCI5rkEeq0mfcBntG1rw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wubUeprkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wubUfJrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wubUfprkEeq0mfcBntG1rw" type="5001"/>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wubUfZrkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wub7gJrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wub7gprkEeq0mfcBntG1rw" type="5001"/>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wub7gZrkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wub7g5rkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wub7hZrkEeq0mfcBntG1rw" type="5001"/>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wub7hJrkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wub7hprkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wub7iJrkEeq0mfcBntG1rw" type="5001"/>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wub7h5rkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wub7iZrkEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wub7i5rkEeq0mfcBntG1rw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_wuqlAJrkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.8/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuqlAZrkEeq0mfcBntG1rw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_wuqlAprkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
+              <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.8/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuqlA5rkEeq0mfcBntG1rw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wub7iprkEeq0mfcBntG1rw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wub7jJrkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wub7jZrkEeq0mfcBntG1rw" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wub7jprkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
+            <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wub7j5rkEeq0mfcBntG1rw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuatYZrkEeq0mfcBntG1rw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wuatY5rkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuatZJrkEeq0mfcBntG1rw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wuatZZrkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
+          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuatZprkEeq0mfcBntG1rw"/>
+        </children>
         <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx0prhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuXqFJrkEeq0mfcBntG1rw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQTx1JrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx1prhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_cQxr4JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
-          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQxr4ZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_cQxr4prhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
-          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQxr45rhEeqxxsYGiAKK6A"/>
-        </children>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx1ZrhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQTx15rhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx2ZrhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_cQ610JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
-          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQ610ZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_cQ610prhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
-          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQ6105rhEeqxxsYGiAKK6A"/>
-        </children>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx2JrhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQTx2prhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx3JrhEeqxxsYGiAKK6A" type="5001"/>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.4"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx25rhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQTx3ZrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQTx35rhEeqxxsYGiAKK6A" type="5001"/>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.5"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx3prhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQTx4JrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQUY4JrhEeqxxsYGiAKK6A" type="5001"/>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.6"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQTx4ZrhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQUY4ZrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQUY45rhEeqxxsYGiAKK6A" type="5001"/>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.7"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY4prhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQUY5JrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_cQUY5prhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_cRnZYJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
-          <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRnZYZrhEeqxxsYGiAKK6A" x="-1" y="1"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_cRnZYprhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
-          <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cRnZY5rhEeqxxsYGiAKK6A"/>
-        </children>
-        <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY5ZrhEeqxxsYGiAKK6A"/>
-      </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQUY55rhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_wuYRIZrkEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
         <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@inNode"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY6JrhEeqxxsYGiAKK6A" x="-1" y="-11"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuYRIprkEeq0mfcBntG1rw" x="-1" y="-11"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_cQUY6ZrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_wuYRI5rkEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
         <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@outNode"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQUY6prhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuYRJJrkEeq0mfcBntG1rw"/>
       </children>
       <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@input/@treeNode.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cQCsEZrhEeqxxsYGiAKK6A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wuXDAZrkEeq0mfcBntG1rw"/>
     </children>
     <element xmi:type="datamapper:Input" href="polo3httpMapper.datamapper#//@input"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lH2AZrgEeqxxsYGiAKK6A" x="35" y="170" width="250" height="200"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lH2AZrgEeqxxsYGiAKK6A" x="24" y="152" width="250" height="260"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_0lIdEJrgEeqxxsYGiAKK6A" type="2003" fontName="Segoe UI">
-    <children xmi:type="notation:Shape" xmi:id="_D1b-YJrhEeqxxsYGiAKK6A" type="3011" fontName="Segoe UI">
-      <children xmi:type="notation:DecorationNode" xmi:id="_D1clcJrhEeqxxsYGiAKK6A" type="5003"/>
-      <children xmi:type="notation:Shape" xmi:id="_D1j6MJrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_D1j6MprhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_D1rO8JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+    <children xmi:type="notation:Shape" xmi:id="_Ief3YJrlEeq0mfcBntG1rw" type="3011" fontName=".AppleSystemUIFont">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ief3YprlEeq0mfcBntG1rw" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_IehFgJrlEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IehFgprlEeq0mfcBntG1rw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IeiToJrlEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1rO8ZrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IeiToZrlEeq0mfcBntG1rw" x="-10" y="4"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_D1rO8prhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_IeiToprlEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1rO85rhEeqxxsYGiAKK6A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IeiTo5rlEeq0mfcBntG1rw"/>
         </children>
         <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.0"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1j6MZrhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IehFgZrlEeq0mfcBntG1rw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_D1khQJrhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_D1khQprhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_D1yjsJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_IehFg5rlEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IehFhZrlEeq0mfcBntG1rw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IekI0JrlEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1yjsZrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IekI0ZrlEeq0mfcBntG1rw" x="-10" y="4"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_D1yjsprhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_IekI0prlEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1yjs5rhEeqxxsYGiAKK6A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IekI05rlEeq0mfcBntG1rw"/>
         </children>
         <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.1"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khQZrhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IehFhJrlEeq0mfcBntG1rw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_D1khQ5rhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_D1khRZrhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_D19i0JrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_IehFhprlEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IehFiJrlEeq0mfcBntG1rw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IelW8JrlEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.2/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1-J4JrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iel-AJrlEeq0mfcBntG1rw" x="-10" y="4"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_D1-J4ZrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_Iel-AZrlEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.2/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1-J4prhEeqxxsYGiAKK6A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Iel-AprlEeq0mfcBntG1rw"/>
         </children>
         <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.2"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khRJrhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IehFh5rlEeq0mfcBntG1rw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_D1khRprhEeqxxsYGiAKK6A" type="3003" fontName="Segoe UI">
-        <children xmi:type="notation:DecorationNode" xmi:id="_D1khSJrhEeqxxsYGiAKK6A" type="5001"/>
-        <children xmi:type="notation:Shape" xmi:id="_D2GFsJrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_IehFiZrlEeq0mfcBntG1rw" type="3003" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IehFi5rlEeq0mfcBntG1rw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IenMIJrlEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.3/@inNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D2GFsZrhEeqxxsYGiAKK6A" x="-10" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IenMIZrlEeq0mfcBntG1rw" x="-10" y="4"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_D2GswJrhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+        <children xmi:type="notation:Shape" xmi:id="_IenMIprlEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
           <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.3/@outNode"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D2GswZrhEeqxxsYGiAKK6A"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IenMI5rlEeq0mfcBntG1rw"/>
         </children>
         <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@node.3"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khR5rhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IehFiprlEeq0mfcBntG1rw"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_D1khSZrhEeqxxsYGiAKK6A" type="3020" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_IehFjJrlEeq0mfcBntG1rw" type="3020" fontName=".AppleSystemUIFont">
         <element xmi:type="datamapper:InNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@inNode"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khSprhEeqxxsYGiAKK6A" x="-1" y="-11"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IehFjZrlEeq0mfcBntG1rw" x="-1" y="-11"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_D1khS5rhEeqxxsYGiAKK6A" type="3019" fontName="Segoe UI">
+      <children xmi:type="notation:Shape" xmi:id="_IehFjprlEeq0mfcBntG1rw" type="3019" fontName=".AppleSystemUIFont">
         <element xmi:type="datamapper:OutNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0/@outNode"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1khTJrhEeqxxsYGiAKK6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IehFj5rlEeq0mfcBntG1rw"/>
       </children>
       <element xmi:type="datamapper:TreeNode" href="polo3httpMapper.datamapper#//@output/@treeNode.0"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_D1b-YZrhEeqxxsYGiAKK6A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ief3YZrlEeq0mfcBntG1rw"/>
     </children>
     <element xmi:type="datamapper:Output" href="polo3httpMapper.datamapper#//@output"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0lIdEZrgEeqxxsYGiAKK6A" x="755" y="205" width="250" height="100"/>
@@ -229,46 +260,46 @@
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_0U8E8ZrgEeqxxsYGiAKK6A"/>
   <element xmi:type="datamapper:DataMapperRoot" href="polo3httpMapper.datamapper#/"/>
-  <edges xmi:type="notation:Connector" xmi:id="_G95kIJrhEeqxxsYGiAKK6A" type="4001" source="_F_vSwJrhEeqxxsYGiAKK6A" target="_D1rO8JrhEeqxxsYGiAKK6A">
-    <styles xmi:type="notation:FontStyle" xmi:id="_G95kIZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
-    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G95kIprhEeqxxsYGiAKK6A" points="[-1, 0, -126, -86]$[123, 86, -2, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G96yQJrhEeqxxsYGiAKK6A" id="CENTER"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G96yQZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  <edges xmi:type="notation:Connector" xmi:id="_y9nI0JrkEeq0mfcBntG1rw" type="4001" source="_wucikprkEeq0mfcBntG1rw" target="_F_qaQJrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_y9nI0ZrkEeq0mfcBntG1rw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y9nI0prkEeq0mfcBntG1rw" points="[-2, 0, -128, 106]$[125, -106, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y9o-AJrkEeq0mfcBntG1rw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y9o-AZrkEeq0mfcBntG1rw" id="CENTER"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_J_vkgJrhEeqxxsYGiAKK6A" type="4001" source="_JJhHIJrhEeqxxsYGiAKK6A" target="_D2GFsJrhEeqxxsYGiAKK6A">
-    <styles xmi:type="notation:FontStyle" xmi:id="_J_vkgZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
-    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J_vkgprhEeqxxsYGiAKK6A" points="[-1, 0, -166, 44]$[163, -44, -2, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J_wLkJrhEeqxxsYGiAKK6A" id="CENTER"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J_wLkZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  <edges xmi:type="notation:Connector" xmi:id="_0RnHUJrkEeq0mfcBntG1rw" type="4001" source="_wuqlAprkEeq0mfcBntG1rw" target="_JJeD0JrhEeqxxsYGiAKK6A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_0RnHUZrkEeq0mfcBntG1rw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0RnHUprkEeq0mfcBntG1rw" points="[-2, 0, -138, 42]$[135, -42, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0RnuYJrkEeq0mfcBntG1rw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0RnuYZrkEeq0mfcBntG1rw" id="CENTER"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_c4rZYJrhEeqxxsYGiAKK6A" type="4001" source="_cQc7wJrhEeqxxsYGiAKK6A" target="_F_qaQJrhEeqxxsYGiAKK6A">
-    <styles xmi:type="notation:FontStyle" xmi:id="_c4rZYZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
-    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c4rZYprhEeqxxsYGiAKK6A" points="[-2, 0, -112, 4]$[109, -4, -1, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c4tOkJrhEeqxxsYGiAKK6A" id="CENTER"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c4tOkZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  <edges xmi:type="notation:Connector" xmi:id="_JBZwIJrlEeq0mfcBntG1rw" type="4001" source="_F_vSwJrhEeqxxsYGiAKK6A" target="_IeiToJrlEeq0mfcBntG1rw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_JBZwIZrlEeq0mfcBntG1rw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JBZwIprlEeq0mfcBntG1rw" points="[-1, 0, -155, -94]$[152, 94, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JBa-QJrlEeq0mfcBntG1rw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JBa-QZrlEeq0mfcBntG1rw" id="CENTER"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_dgF-sJrhEeqxxsYGiAKK6A" type="4001" source="_cQxr4prhEeqxxsYGiAKK6A" target="_D1yjsJrhEeqxxsYGiAKK6A">
-    <styles xmi:type="notation:FontStyle" xmi:id="_dgF-sZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
-    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.2/@outNode/@outgoingLink.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dgF-sprhEeqxxsYGiAKK6A" points="[-2, 0, -562, -63]$[558, 63, -2, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dgHM0JrhEeqxxsYGiAKK6A" id="CENTER"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dgHM0ZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  <edges xmi:type="notation:Connector" xmi:id="_JcABcJrlEeq0mfcBntG1rw" type="4001" source="_wugM8prkEeq0mfcBntG1rw" target="_IekI0JrlEeq0mfcBntG1rw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_JcABcZrlEeq0mfcBntG1rw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.2/@outNode/@outgoingLink.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JcABcprlEeq0mfcBntG1rw" points="[-2, 0, -483, 31]$[479, -31, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JcAogJrlEeq0mfcBntG1rw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JcBPkJrlEeq0mfcBntG1rw" id="CENTER"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_d9WicJrhEeqxxsYGiAKK6A" type="4001" source="_cRnZYprhEeqxxsYGiAKK6A" target="_JJeD0JrhEeqxxsYGiAKK6A">
-    <styles xmi:type="notation:FontStyle" xmi:id="_d9WicZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
-    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.8/@outNode/@outgoingLink.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d9WicprhEeqxxsYGiAKK6A" points="[-2, 0, -162, -38]$[159, 38, -1, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d9XwkJrhEeqxxsYGiAKK6A" id="CENTER"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d9XwkZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  <edges xmi:type="notation:Connector" xmi:id="_J3r34JrlEeq0mfcBntG1rw" type="4001" source="_wuiCIprkEeq0mfcBntG1rw" target="_IelW8JrlEeq0mfcBntG1rw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_J3r34ZrlEeq0mfcBntG1rw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.1/@node.0/@node.3/@outNode/@outgoingLink.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J3r34prlEeq0mfcBntG1rw" points="[-2, 0, -483, 33]$[479, -33, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J3se8JrlEeq0mfcBntG1rw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J3se8ZrlEeq0mfcBntG1rw" id="CENTER"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_eYu24JrhEeqxxsYGiAKK6A" type="4001" source="_cQ610prhEeqxxsYGiAKK6A" target="_D19i0JrhEeqxxsYGiAKK6A">
-    <styles xmi:type="notation:FontStyle" xmi:id="_eYu24ZrhEeqxxsYGiAKK6A" fontName="Segoe UI"/>
-    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@input/@treeNode.0/@node.3/@outNode/@outgoingLink.0"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eYu24prhEeqxxsYGiAKK6A" points="[-2, 0, -562, -61]$[558, 61, -2, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYvd8JrhEeqxxsYGiAKK6A" id="CENTER"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eYvd8ZrhEeqxxsYGiAKK6A" id="CENTER"/>
+  <edges xmi:type="notation:Connector" xmi:id="_KQrmsJrlEeq0mfcBntG1rw" type="4001" source="_JJhHIJrhEeqxxsYGiAKK6A" target="_IenMIJrlEeq0mfcBntG1rw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KQrmsZrlEeq0mfcBntG1rw" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="datamapper:DataMapperLink" href="polo3httpMapper.datamapper#//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KQrmsprlEeq0mfcBntG1rw" points="[-1, 0, -145, 62]$[142, -62, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KQsNwJrlEeq0mfcBntG1rw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KQsNwZrlEeq0mfcBntG1rw" id="CENTER"/>
   </edges>
 </notation:Diagram>
