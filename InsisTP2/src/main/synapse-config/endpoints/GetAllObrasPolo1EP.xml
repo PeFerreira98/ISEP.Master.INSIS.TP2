@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <endpoint name="GetAllObrasPolo1EP" xmlns="http://ws.apache.org/ns/synapse">
-    <http method="get" trace="enable" uri-template="https://5dbf329fe295da001400b4dd.mockapi.io/polo1/obras">
+    <http method="get" uri-template="https://5dbf329fe295da001400b4dd.mockapi.io/polo1/obras">
         <suspendOnFailure>
             <initialDuration>-1</initialDuration>
             <progressionFactor>1.0</progressionFactor>

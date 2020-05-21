@@ -1,12 +1,6 @@
 {
   "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
   "inputType" : "XML",
-  "attributes" : {
-    "soap:encodingStyle" : {
-      "id" : "http://wso2jsonschema.org/soap:encodingStyle",
-      "type" : "string"
-    }
-  },
   "id" : "http://wso2jsonschema.org",
   "title" : "soap:Envelope",
   "type" : "object",

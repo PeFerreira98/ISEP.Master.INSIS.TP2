@@ -2,14 +2,6 @@
 <datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
   <input>
     <treeNode name="soap:Envelope" schemaDataType="OBJECT" level="1">
-      <node name="@soap:encodingStyle" schemaDataType="STRING" level="2">
-        <properties key="namespaces" value="{prefix=soap, url=http://www.w3.org/2001/12/soap-envelope}"/>
-        <properties key="type" value="string"/>
-        <properties key="id" value="http://wso2jsonschema.org/soap:encodingStyle"/>
-        <properties key="nullable" value="false"/>
-        <outNode/>
-        <inNode/>
-      </node>
       <node name="soap:Body" schemaDataType="OBJECT" level="2">
         <node name="Obra" level="3">
           <node name="id" schemaDataType="NUMBER" level="4">
@@ -34,6 +26,7 @@
             <properties key="nullable" value="false"/>
             <outNode>
               <outgoingLink/>
+              <outgoingLink/>
               <outgoingLink inNode="//@output/@treeNode.0/@node.1/@inNode"/>
             </outNode>
             <inNode/>
@@ -43,6 +36,7 @@
             <properties key="id" value="http://wso2jsonschema.org/soap:Body/Obra/0/titulo"/>
             <properties key="nullable" value="false"/>
             <outNode>
+              <outgoingLink/>
               <outgoingLink/>
               <outgoingLink inNode="//@output/@treeNode.0/@node.2/@inNode"/>
             </outNode>
@@ -121,28 +115,28 @@
         <properties key="id" value="http://wso2jsonschema.org/0/id"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+        <inNode incomingLink="//@operators.0/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.3"/>
       </node>
       <node name="ISBN" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/0/ISBN"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.2/@outNode/@outgoingLink.1"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.2/@outNode/@outgoingLink.2"/>
       </node>
       <node name="Title" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/0/Title"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.3/@outNode/@outgoingLink.1"/>
+        <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.3/@outNode/@outgoingLink.2"/>
       </node>
       <node name="Ano de Publicação" schemaDataType="STRING" level="2">
         <properties key="type" value="string"/>
         <properties key="id" value="http://wso2jsonschema.org/0/Ano de Publicação"/>
         <properties key="nullable" value="false"/>
         <outNode/>
-        <inNode incomingLink="//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.2"/>
+        <inNode incomingLink="//@operators.1/@basicContainer/@rightContainer/@rightConnectors.0/@outNode/@outgoingLink.3"/>
       </node>
       <properties key="type" value="array"/>
       <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
@@ -158,12 +152,13 @@
     <basicContainer>
       <leftContainer>
         <leftConnectors>
-          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.0/@outNode/@outgoingLink.0"/>
         </leftConnectors>
       </leftContainer>
       <rightContainer>
         <rightConnectors>
           <outNode>
+            <outgoingLink/>
             <outgoingLink/>
             <outgoingLink/>
             <outgoingLink inNode="//@output/@treeNode.0/@node.0/@inNode"/>
@@ -176,12 +171,13 @@
     <basicContainer>
       <leftContainer>
         <leftConnectors>
-          <inNode incomingLink="//@input/@treeNode.0/@node.1/@node.0/@node.8/@outNode/@outgoingLink.0"/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@node.0/@node.8/@outNode/@outgoingLink.0"/>
         </leftConnectors>
       </leftContainer>
       <rightContainer>
         <rightConnectors>
           <outNode>
+            <outgoingLink/>
             <outgoingLink/>
             <outgoingLink/>
             <outgoingLink inNode="//@output/@treeNode.0/@node.3/@inNode"/>

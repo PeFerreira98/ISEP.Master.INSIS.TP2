@@ -73,9 +73,6 @@
             <log description="Before Send" level="custom">
                 <property name="BFSend" value="Log Before Send Messages"/>
             </log>
-            <send/>
-        </inSequence>
-        <outSequence>
             <log description="Log Before Agg" level="custom">
                 <property name="LogBeforeAgg" value="Step Before Aggregate Mediator"/>
             </log>
@@ -94,6 +91,27 @@
                     <send/>
                 </onComplete>
             </aggregate>
+        </inSequence>
+        <outSequence>
+            <!-- <log description="Log Before Agg" level="custom">
+                <property name="LogBeforeAgg" value="Step Before Aggregate Mediator"/>
+            </log>
+            <property name="closingprop" scope="default">
+                <value xmlns=""/>
+            </property>
+            <aggregate>
+                <completeCondition>
+                    <messageCount max="3" min="3"/>
+                </completeCondition>
+                <onComplete enclosingElementProperty="closingprop" expression="//*[local-name() = 'Desc']">
+                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+                    <log description="Log After Agg" level="full">
+                        <property name="LogAfterAgg" value="Log after Aggregator mediator usage"/>
+                    </log>
+                    <send/>
+                </onComplete>
+            </aggregate>-->
+            <respond/>
         </outSequence>
         <faultSequence>
             <sequence key="defaultFaultSequence"/>
