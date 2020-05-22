@@ -30,43 +30,17 @@
             <clone id="Clone Obras From Polos">
                 <target>
                     <sequence>
-                        <call>
-                            <endpoint key="GetAllObrasPolo1EP"/>
-                        </call>
-                        <datamapper config="gov:datamapper/JsonOutputObra.dmc" description="Map To generic" inputSchema="gov:datamapper/JsonOutputObra_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonOutputObra_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/JsonOutputObra_xsltStyleSheet.xml"/>
-                        <log description="c1">
-                            <property name="c1" value="c1"/>
-                        </log>
+                        <sequence key="ClonePolo1"/>
                     </sequence>
                 </target>
                 <target>
                     <sequence>
-                        <call>
-                            <endpoint key="GetObrasPolo2ByTituloAnoEP"/>
-                        </call>
-                        <datamapper config="gov:datamapper/MapPoloXMLtoJSON.dmc" description="Map to Generic Json" inputSchema="gov:datamapper/MapPoloXMLtoJSON_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/MapPoloXMLtoJSON_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/MapPoloXMLtoJSON_xsltStyleSheet.xml"/>
-                        <log description="c2">
-                            <property name="c2" value="c2"/>
-                        </log>
+                        <sequence key="ClonePolo2"/>
                     </sequence>
                 </target>
                 <target>
                     <sequence>
-                        <payloadFactory media-type="xml">
-                            <format>
-                                <ns:GetObrasRequest xmlns:ns="http://demo0516930.mockable.io/service/1"/>
-                            </format>
-                            <args/>
-                        </payloadFactory>
-                        <header name="SOAPAction" scope="transport" value="GetObras"/>
-                        <property action="remove" description="Avoid appending resource to endpoint URL" name="REST_URL_POSTFIX" scope="axis2"/>
-                        <call>
-                            <endpoint key="polo3http"/>
-                        </call>
-                        <datamapper config="gov:datamapper/polo3httpMapper.dmc" description="Map To Generic JSON" inputSchema="gov:datamapper/polo3httpMapper_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/polo3httpMapper_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/polo3httpMapper_xsltStyleSheet.xml"/>
-                        <log description="c3">
-                            <property name="c3" value="c3"/>
-                        </log>
+                        <sequence key="ClonePolo3"/>
                     </sequence>
                 </target>
             </clone>
@@ -93,24 +67,6 @@
             </aggregate>
         </inSequence>
         <outSequence>
-            <!-- <log description="Log Before Agg" level="custom">
-                <property name="LogBeforeAgg" value="Step Before Aggregate Mediator"/>
-            </log>
-            <property name="closingprop" scope="default">
-                <value xmlns=""/>
-            </property>
-            <aggregate>
-                <completeCondition>
-                    <messageCount max="3" min="3"/>
-                </completeCondition>
-                <onComplete enclosingElementProperty="closingprop" expression="//*[local-name() = 'Desc']">
-                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-                    <log description="Log After Agg" level="full">
-                        <property name="LogAfterAgg" value="Log after Aggregator mediator usage"/>
-                    </log>
-                    <send/>
-                </onComplete>
-            </aggregate>-->
             <respond/>
         </outSequence>
         <faultSequence>

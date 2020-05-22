@@ -26,4 +26,13 @@
     <artifact name="polo3http" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/polo3http.xml</file>
     </artifact>
+    <artifact name="ClonePolo1" groupId="com.example.InsisTP2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ClonePolo1.xml</file>
+    </artifact>
+    <artifact name="ClonePolo2" groupId="com.example.InsisTP2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ClonePolo2.xml</file>
+    </artifact>
+    <artifact name="ClonePolo3" groupId="com.example.InsisTP2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ClonePolo3.xml</file>
+    </artifact>
 </artifacts>

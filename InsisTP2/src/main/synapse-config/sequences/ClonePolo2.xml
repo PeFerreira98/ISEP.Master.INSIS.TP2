@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="ClonePolo2" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="Start">
+        <property name="Polo2Status" value="STARTING..."/>
+    </log>
+    <call>
+        <endpoint key="GetObrasPolo2ByTituloAnoEP"/>
+    </call>
+    <datamapper config="gov:datamapper/MapPoloXMLtoJSON.dmc" description="Map to Generic Json" inputSchema="gov:datamapper/MapPoloXMLtoJSON_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/MapPoloXMLtoJSON_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/MapPoloXMLtoJSON_xsltStyleSheet.xml"/>
+    <log description="End">
+        <property name="Polo2Status" value="ENDING..."/>
+    </log>
+</sequence>

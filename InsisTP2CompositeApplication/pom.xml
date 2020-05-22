@@ -38,8 +38,11 @@
     <com.example.InsisTP2.endpoint_._GetObrasPolo2ByTituloAnoEP>capp/EnterpriseServiceBus</com.example.InsisTP2.endpoint_._GetObrasPolo2ByTituloAnoEP>
     <com.example.InsisTP2.resource_._JsonOutputObra_outputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._JsonOutputObra_outputSchema>
     <com.example.InsisTP2.resource_._AdcMapping_inputSchema>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._AdcMapping_inputSchema>
+    <com.example.InsisTP2.sequence_._ClonePolo3>capp/EnterpriseServiceBus</com.example.InsisTP2.sequence_._ClonePolo3>
     <com.example.InsisTP2.resource_._ResponseAdcMapping_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._ResponseAdcMapping_xsltStyleSheet>
+    <com.example.InsisTP2.sequence_._ClonePolo2>capp/EnterpriseServiceBus</com.example.InsisTP2.sequence_._ClonePolo2>
     <com.example.InsisTP2.resource_._polo3httpMapper_xsltStyleSheet>capp/EnterpriseServiceBus</com.example.InsisTP2.resource_._polo3httpMapper_xsltStyleSheet>
+    <com.example.InsisTP2.sequence_._ClonePolo1>capp/EnterpriseServiceBus</com.example.InsisTP2.sequence_._ClonePolo1>
   </properties>
   <dependencies>
     <dependency>
@@ -91,12 +94,6 @@
       <type>zip</type>
     </dependency>
     <dependency>
-      <groupId>com.example.InsisTP2.endpoint</groupId>
-      <artifactId>polo3http</artifactId>
-      <version>1.0.0</version>
-      <type>xml</type>
-    </dependency>
-    <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
       <artifactId>polo3httpMapper_inputSchema</artifactId>
       <version>1.0.0</version>
@@ -113,6 +110,12 @@
       <artifactId>AdcMapping_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.endpoint</groupId>
+      <artifactId>polo3http</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
@@ -181,16 +184,28 @@
       <type>xml</type>
     </dependency>
     <dependency>
+      <groupId>com.example.InsisTP2.resource</groupId>
+      <artifactId>JsonOutputObra_inputSchema</artifactId>
+      <version>1.0.0</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.sequence</groupId>
+      <artifactId>ClonePolo1</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
       <groupId>com.example.InsisTP2.endpoint</groupId>
       <artifactId>GetObrasPolo2ByTituloAnoEP</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
     </dependency>
     <dependency>
-      <groupId>com.example.InsisTP2.resource</groupId>
-      <artifactId>JsonOutputObra_inputSchema</artifactId>
+      <groupId>com.example.InsisTP2.sequence</groupId>
+      <artifactId>ClonePolo2</artifactId>
       <version>1.0.0</version>
-      <type>zip</type>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>
@@ -209,6 +224,12 @@
       <artifactId>JsonOutputObra_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.InsisTP2.sequence</groupId>
+      <artifactId>ClonePolo3</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.InsisTP2.resource</groupId>

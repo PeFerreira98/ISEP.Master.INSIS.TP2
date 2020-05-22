@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="ClonePolo3" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="Start">
+        <property name="Polo3Status" value="STARTING..."/>
+    </log>
+    <payloadFactory media-type="xml">
+        <format>
+            <ns:GetObrasRequest xmlns:ns="http://demo0516930.mockable.io/service/1"/>
+        </format>
+        <args/>
+    </payloadFactory>
+    <header name="SOAPAction" scope="transport" value="GetObras"/>
+    <property action="remove" description="Avoid appending resource to endpoint URL" name="REST_URL_POSTFIX" scope="axis2"/>
+    <call>
+        <endpoint key="polo3http"/>
+    </call>
+    <datamapper config="gov:datamapper/polo3httpMapper.dmc" description="Map To Generic JSON" inputSchema="gov:datamapper/polo3httpMapper_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/polo3httpMapper_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/polo3httpMapper_xsltStyleSheet.xml"/>
+    <log description="End">
+        <property name="Polo3Status" value="ENDING..."/>
+    </log>
+</sequence>
