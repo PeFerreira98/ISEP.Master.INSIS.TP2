@@ -1,24 +1,28 @@
 map_S_Envelope_S_root = function(){ 
 var outputroot={};
-var TO_STRING_4_0 = '';
 var TO_STRING_6_0 = '';
+var TO_STRING_8_0 = '';
 
-var count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779 = 0;
-outputroot =  [];
+var count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94 = 0;
+outputroot =  {};
+outputroot.obras =  {};
+outputroot.obras.obra =  [];
 
-for(i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779 in inputsoap_Envelope.soap_Body.Obra){
-TO_STRING_4_0 = (inputsoap_Envelope.soap_Body.Obra[i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].ano).toString();
-TO_STRING_6_0 = (inputsoap_Envelope.soap_Body.Obra[i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].id).toString();
-outputroot[count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779] =  {};
-outputroot[count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].id = TO_STRING_6_0;
-outputroot[count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].ISBN = inputsoap_Envelope.soap_Body.Obra[i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].ISBN;
-outputroot[count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].Title = inputsoap_Envelope.soap_Body.Obra[i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779].titulo;
-outputroot[count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779]['Ano de Publicação'] = TO_STRING_4_0;
+for(i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94 in inputsoap_Envelope.soap_Body.Obra){
+TO_STRING_6_0 = (inputsoap_Envelope.soap_Body.Obra[i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].ano).toString();
+TO_STRING_8_0 = (inputsoap_Envelope.soap_Body.Obra[i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].id).toString();
+outputroot.obras.obra[count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94] =  {};
+outputroot.obras.obra[count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].id = TO_STRING_8_0;
+outputroot.obras.obra[count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].ISBN = inputsoap_Envelope.soap_Body.Obra[i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].ISBN;
+outputroot.obras.obra[count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].Title = inputsoap_Envelope.soap_Body.Obra[i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94].titulo;
+outputroot.obras.obra[count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94]['Ano de Publicação'] = TO_STRING_6_0;
 
-count_i_Obra_2b1502e2_dfd1_418a_b5f2_f488313d4779++;
+count_i_Obra_ce38f97e_b079_41cd_afa6_c2df99e10d94++;
 }
 return outputroot;
 };
+
+
 
 
 

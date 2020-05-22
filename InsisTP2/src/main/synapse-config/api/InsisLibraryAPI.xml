@@ -57,14 +57,16 @@
                 <completeCondition>
                     <messageCount max="3" min="3"/>
                 </completeCondition>
-                <onComplete enclosingElementProperty="closingprop" expression="//*[local-name() = 'Desc']">
-                    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
-                    <log description="Log After Agg" level="full">
-                        <property name="LogAfterAgg" value="Log after Aggregator mediator usage"/>
+                <onComplete enclosingElementProperty="closingprop" expression="json-eval($.obras..id)">
+                    <log description="Inside AGG Mediator" level="custom">
+                        <property name="InsideAGG" value="Log Inside AGG Mediator"/>
                     </log>
-                    <send/>
                 </onComplete>
             </aggregate>
+            <log description="Log After Aggregator work" level="custom">
+                <property name="LogAfterAGG" value="Log after Aggregator mediator usage"/>
+            </log>
+            <send/>
         </inSequence>
         <outSequence>
             <respond/>

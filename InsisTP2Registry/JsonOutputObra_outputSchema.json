@@ -3,27 +3,39 @@
   "outputType" : "JSON",
   "id" : "http://wso2jsonschema.org",
   "title" : "root",
-  "type" : "array",
-  "items" : [ {
-    "properties" : {
-      "id" : {
-        "id" : "http://wso2jsonschema.org/0/id",
-        "type" : "string"
-      },
-      "ISBN" : {
-        "id" : "http://wso2jsonschema.org/0/ISBN",
-        "type" : "string"
-      },
-      "Title" : {
-        "id" : "http://wso2jsonschema.org/0/Title",
-        "type" : "string"
-      },
-      "Ano de Publicação" : {
-        "id" : "http://wso2jsonschema.org/0/Ano de Publicação",
-        "type" : "string"
+  "type" : "object",
+  "properties" : {
+    "obras" : {
+      "id" : "http://wso2jsonschema.org/obras",
+      "type" : "object",
+      "properties" : {
+        "obra" : {
+          "id" : "http://wso2jsonschema.org/obras/obra",
+          "type" : "array",
+          "items" : [ {
+            "id" : "http://wso2jsonschema.org/obras/obra/0",
+            "type" : "object",
+            "properties" : {
+              "id" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/id",
+                "type" : "string"
+              },
+              "ISBN" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/ISBN",
+                "type" : "string"
+              },
+              "Title" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/Title",
+                "type" : "string"
+              },
+              "Ano de Publicação" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/Ano de Publicação",
+                "type" : "string"
+              }
+            }
+          } ]
+        }
       }
-    },
-    "id" : "http://wso2jsonschema.org/0",
-    "type" : "object"
-  } ]
+    }
+  }
 }

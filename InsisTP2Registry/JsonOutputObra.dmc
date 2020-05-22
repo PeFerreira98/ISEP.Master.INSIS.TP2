@@ -1,20 +1,24 @@
 map_S_root_S_root = function(){ 
 var outputroot={};
 
-var count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527 = 0;
-outputroot =  [];
+var count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907 = 0;
+outputroot =  {};
+outputroot.obras =  {};
+outputroot.obras.obra =  [];
 
-for(i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527 in inputroot){
-outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527] =  {};
-outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].id = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].id;
-outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].ISBN = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].ISBN;
-outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].Title = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527].Title;
-outputroot[count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527]['Ano de Publicação'] = inputroot[i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527]['Ano de Publicação'];
+for(i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907 in inputroot){
+outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907] =  {};
+outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].id = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].id;
+outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].ISBN = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].ISBN;
+outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].Title = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].Title;
+outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907]['Ano de Publicação'] = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907]['Ano de Publicação'];
 
-count_i_inputroot_109ab2ab_686c_498f_b406_10aa48c14527++;
+count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907++;
 }
 return outputroot;
 };
+
+
 
 
 
