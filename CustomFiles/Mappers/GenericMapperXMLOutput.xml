@@ -1,0 +1,16 @@
+<root>
+  <obras>
+    <obra>
+      <id>Sample String </id>
+      <isbn>Sample String </isbn>
+      <titulo>Sample String </titulo>
+      <ano>Duh</ano>
+    </obra>
+    <obra>
+      <id>Sample String 2</id>
+      <isbn>Sample String 2</isbn>
+      <titulo>Sample String 2</titulo>
+      <ano>Duh</ano>
+    </obra>
+  </obras>
+</root>

@@ -14,5 +14,21 @@
         ],
         "ID_AdC": "1",
         "Ano de Publicação": "1893"
+    },
+    {
+        "id": "291",
+        "ID_autores": [
+            251
+        ],
+        "ISBN": "129569592-8",
+        "Title": "in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae",
+        "Preço1": "32.3",
+        "# exemplares": "1",
+        "tipoID": "1",
+        "EstadosID": [
+            5
+        ],
+        "ID_AdC": "2",
+        "Ano de Publicação": "1842"
     }
 ]
