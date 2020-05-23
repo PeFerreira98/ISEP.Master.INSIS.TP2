@@ -1,0 +1,41 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "obras" : {
+      "id" : "http://wso2jsonschema.org/obras",
+      "type" : "object",
+      "properties" : {
+        "obra" : {
+          "id" : "http://wso2jsonschema.org/obras/obra",
+          "type" : "array",
+          "items" : [ {
+            "id" : "http://wso2jsonschema.org/obras/obra/0",
+            "type" : "object",
+            "properties" : {
+              "id" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/id",
+                "type" : "string"
+              },
+              "isbn" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/isbn",
+                "type" : "string"
+              },
+              "titulo" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/titulo",
+                "type" : "string"
+              },
+              "ano" : {
+                "id" : "http://wso2jsonschema.org/obras/obra/0/ano",
+                "type" : "string"
+              }
+            }
+          } ]
+        }
+      }
+    }
+  }
+}

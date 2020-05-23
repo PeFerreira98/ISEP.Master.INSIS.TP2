@@ -1,0 +1,26 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+var count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818 = 0;
+outputroot =  {};
+outputroot.obras =  {};
+outputroot.obras.obra =  [];
+
+for(i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818 in inputroot){
+outputroot.obras.obra[count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818] =  {};
+outputroot.obras.obra[count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].id = inputroot[i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].id;
+outputroot.obras.obra[count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].isbn = inputroot[i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].ISBN;
+outputroot.obras.obra[count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].titulo = inputroot[i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].Title;
+outputroot.obras.obra[count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818].ano = inputroot[i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818]['Ano de Publicação'];
+
+count_i_inputroot_b23c8c30_c37a_4e06_8867_eaead880f818++;
+}
+return outputroot;
+};
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+map_S_Obras_S_root = function(){ 
+var outputroot={};
+
+var count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded = 0;
+outputroot =  {};
+outputroot.obras =  {};
+outputroot.obras.obra =  [];
+
+for(i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded in inputObras.Obra){
+outputroot.obras.obra[count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded] =  {};
+outputroot.obras.obra[count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].id = (inputObras.Obra[i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].id).toString();
+outputroot.obras.obra[count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].isbn = inputObras.Obra[i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].ISBN;
+outputroot.obras.obra[count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].titulo = inputObras.Obra[i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].titulo;
+outputroot.obras.obra[count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].ano = (inputObras.Obra[i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded].ano).toString();
+
+count_i_Obra_d6eac8ac_e5bb_43fb_bd80_f2caa0be9ded++;
+}
+return outputroot;
+};
+
+
+
+
+
+
+
