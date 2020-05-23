@@ -167,4 +167,116 @@
             <mediaType>text/plain</mediaType>
         </item>
     </artifact>
+    <artifact name="Polo1JsonToXML" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1JsonToXML.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1JsonToXML_inputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1JsonToXML_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1JsonToXML_outputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1JsonToXML_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1JsonToXML_xsltStyleSheet" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1JsonToXML_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1Mapper" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1Mapper.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1Mapper_inputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1Mapper_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1Mapper_outputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1Mapper_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo1Mapper_xsltStyleSheet" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo1Mapper_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo2Mapper" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo2Mapper.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo2Mapper_inputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo2Mapper_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo2Mapper_outputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo2Mapper_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo2Mapper_xsltStyleSheet" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo2Mapper_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo3Mapper" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo3Mapper.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo3Mapper_inputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo3Mapper_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo3Mapper_outputSchema" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo3Mapper_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
+    <artifact name="Polo3Mapper_xsltStyleSheet" groupId="com.example.InsisTP2.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>Polo3Mapper_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+        </item>
+    </artifact>
 </artifacts>
