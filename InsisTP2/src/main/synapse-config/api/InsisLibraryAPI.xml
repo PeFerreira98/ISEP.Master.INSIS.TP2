@@ -44,9 +44,6 @@
                     </sequence>
                 </target>
             </clone>
-            <log description="Before Send" level="custom">
-                <property name="BFSend" value="Log Before Send Messages"/>
-            </log>
             <log description="Log Before Agg" level="custom">
                 <property name="LogBeforeAgg" value="Step Before Aggregate Mediator"/>
             </log>
@@ -55,9 +52,9 @@
             </property>
             <aggregate>
                 <completeCondition>
-                    <messageCount max="3" min="3"/>
+                    <messageCount max="2" min="2"/>
                 </completeCondition>
-                <onComplete enclosingElementProperty="closingprop" expression="json-eval($.obras..id)">
+                <onComplete enclosingElementProperty="closingprop" expression="//*[starts-with(name(), 'id')]">
                     <log description="Inside AGG Mediator" level="custom">
                         <property name="InsideAGG" value="Log Inside AGG Mediator"/>
                     </log>
@@ -73,6 +70,23 @@
         </outSequence>
         <faultSequence>
             <sequence key="defaultFaultSequence"/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET">
+        <inSequence/>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/3/{ano}/{titulo}">
+        <inSequence>
+            <sequence key="ClonePolo3"/>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
         </faultSequence>
     </resource>
 </api>

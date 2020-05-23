@@ -1,41 +1,59 @@
 {
   "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
-  "outputType" : "JSON",
+  "outputType" : "XML",
   "id" : "http://wso2jsonschema.org",
   "title" : "root",
   "type" : "object",
   "properties" : {
-    "obras" : {
-      "id" : "http://wso2jsonschema.org/obras",
-      "type" : "object",
-      "properties" : {
-        "obra" : {
-          "id" : "http://wso2jsonschema.org/obras/obra",
-          "type" : "array",
-          "items" : [ {
-            "id" : "http://wso2jsonschema.org/obras/obra/0",
-            "type" : "object",
-            "properties" : {
-              "id" : {
-                "id" : "http://wso2jsonschema.org/obras/obra/0/id",
-                "type" : "string"
-              },
-              "ISBN" : {
-                "id" : "http://wso2jsonschema.org/obras/obra/0/ISBN",
-                "type" : "string"
-              },
-              "Title" : {
-                "id" : "http://wso2jsonschema.org/obras/obra/0/Title",
-                "type" : "string"
-              },
-              "Ano de Publicação" : {
-                "id" : "http://wso2jsonschema.org/obras/obra/0/Ano de Publicação",
-                "type" : "string"
-              }
-            }
-          } ]
+    "obra" : {
+      "id" : "http://wso2jsonschema.org/row",
+      "type" : "array",
+      "items" : [ {
+        "id" : "http://wso2jsonschema.org/row/0",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "id" : "http://wso2jsonschema.org/row/0/id",
+            "type" : "string"
+          },
+          "ID_autores" : {
+            "id" : "http://wso2jsonschema.org/row/0/ID_autores",
+            "type" : "number"
+          },
+          "ISBN" : {
+            "id" : "http://wso2jsonschema.org/row/0/ISBN",
+            "type" : "string"
+          },
+          "Title" : {
+            "id" : "http://wso2jsonschema.org/row/0/Title",
+            "type" : "string"
+          },
+          "Preço1" : {
+            "id" : "http://wso2jsonschema.org/row/0/Preço1",
+            "type" : "number"
+          },
+          "tipoID" : {
+            "id" : "http://wso2jsonschema.org/row/0/tipoID",
+            "type" : "number"
+          },
+          "EstadosID" : {
+            "id" : "http://wso2jsonschema.org/row/0/EstadosID",
+            "type" : "number"
+          },
+          "ID_AdC" : {
+            "id" : "http://wso2jsonschema.org/row/0/ID_AdC",
+            "type" : "string"
+          },
+          "_exemplares" : {
+            "id" : "http://wso2jsonschema.org/row/0/_exemplares",
+            "type" : "string"
+          },
+          "Ano_de_Publicação" : {
+            "id" : "http://wso2jsonschema.org/row/0/Ano_de_Publicação",
+            "type" : "string"
+          }
         }
-      }
+      } ]
     }
   }
 }

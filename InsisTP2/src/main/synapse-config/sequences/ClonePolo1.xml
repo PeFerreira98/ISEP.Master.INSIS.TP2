@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sequence name="ClonePolo1" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <!--<iterate expression="//*[starts-with(name(), 'Title')]">
+        <target>
+            <sequence>
+                <property expression="//*[starts-with(name(), 'Title')]" name="titleobra" scope="default" type="STRING"/>
+                <filter xpath="//*[text()=get-property('uri.var.titulo')]">
+                    <then>
+                        <log description="Valid Title">
+                            <property expression="get-property('uri.var.titulo')" name="Valid Title"/>
+                            <property expression="get-property('titleobra')" name="LogPropertyTitleObra"/>
+                        </log>
+                    </then>
+                    <else>
+                        <log description="Invalid Title">
+                            <property expression="get-property('uri.var.titulo')" name="Valid Title"/>
+                            <property expression="get-property('titleobra')" name="Wrong LogPropertyTitleObra"/>
+                        </log>
+                    </else>
+                </filter>
+            </sequence>
+        </target>
+    </iterate>-->
     <log description="Start">
         <property name="Polo1Status" value="STARTING..."/>
     </log>
     <call>
         <endpoint key="GetAllObrasPolo1EP"/>
     </call>
-    <datamapper config="gov:datamapper/JsonOutputObra.dmc" description="Map To generic" inputSchema="gov:datamapper/JsonOutputObra_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/JsonOutputObra_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/JsonOutputObra_xsltStyleSheet.xml"/>
+    <iterate expression="//*[starts-with(name(), 'Ano de Publicação')]">
+        <target>
+            <sequence>
+                <property description="Property Ano of Obra" expression="//*[starts-with(name(), 'Ano de Publicação')]" name="anoobra" scope="default" type="STRING"/>
+                <property expression="//*[starts-with(name(), 'Title')]" name="titleobra" scope="default" type="STRING"/>
+                <filter xpath="//*[get-property('anoobra')=get-property('uri.var.ano') and get-property('titleobra')=get-property('uri.var.titulo')] ">
+                    <then>
+                        <log description="Log success" level="custom">
+                            <property expression="get-property('anoobra')" name="Log Validated Ano"/>
+                            <property expression="get-property('uri.var.ano')" name="URIANO"/>
+                            <property expression="get-property('uri.var.titulo')" name="URITITLE"/>
+                            <property expression="get-property('titleobra')" name="Log Validated Title"/>
+                        </log>
+                    </then>
+                    <else/>
+                </filter>
+            </sequence>
+        </target>
+    </iterate>
     <log description="End">
         <property name="Polo1Status" value="ENDING..."/>
     </log>

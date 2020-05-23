@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <id>289</id>
+    <ID_autores>249</ID_autores>
+    <ISBN>346296131-4</ISBN>
+    <Title>amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum</Title>
+    <Preço1>17.6</Preço1>
+    <tipoID>2</tipoID>
+    <EstadosID>1</EstadosID>
+    <EstadosID>2</EstadosID>
+    <ID_AdC>1</ID_AdC>
+    <_exemplares>1</_exemplares>
+    <Ano_de_Publicação>1893</Ano_de_Publicação>
+  </row>
+  <row>
+    <id>291</id>
+    <ID_autores>251</ID_autores>
+    <ISBN>129569592-8</ISBN>
+    <Title>in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae</Title>
+    <Preço1>32.3</Preço1>
+    <tipoID>1</tipoID>
+    <EstadosID>5</EstadosID>
+    <ID_AdC>2</ID_AdC>
+    <_exemplares>1</_exemplares>
+    <Ano_de_Publicação>1842</Ano_de_Publicação>
+  </row>
+</root>

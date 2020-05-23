@@ -14,7 +14,50 @@
     <call>
         <endpoint key="polo3http"/>
     </call>
-    <datamapper config="gov:datamapper/polo3httpMapper.dmc" description="Map To Generic JSON" inputSchema="gov:datamapper/polo3httpMapper_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/polo3httpMapper_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/polo3httpMapper_xsltStyleSheet.xml"/>
+    <iterate expression="//*[starts-with(name(), 'Obra')]">
+        <target>
+            <sequence>
+                <property description="Property Ano of Obra" expression="//*[starts-with(name(), 'ano')]" name="anoobra" scope="default" type="STRING"/>
+                <property description="Property Titulo of Obra" expression="//*[starts-with(name(), 'titulo')]" name="titleobra" scope="default" type="STRING"/>
+                <filter xpath="//*[get-property('anoobra')=get-property('uri.var.ano') and get-property('titleobra')=get-property('uri.var.titulo')] ">
+                    <then>
+                        <log description="Log success" level="custom">
+                            <property expression="get-property('anoobra')" name="Log Validated Ano"/>
+                            <property expression="get-property('uri.var.ano')" name="URIANO"/>
+                            <property expression="get-property('uri.var.titulo')" name="URITITLE"/>
+                            <property expression="get-property('titleobra')" name="Log Validated Title"/>
+                        </log>
+                    </then>
+                    <else/>
+                </filter>
+            </sequence>
+        </target>
+    </iterate>
+    <!--<foreach expression="//*[starts-with(name(), 'Obra')]">
+        <sequence>
+            <property description="Property Ano of Obra" expression="//*[starts-with(name(), 'ano')]" name="anoobra" scope="default" type="STRING"/>
+            <conditionalRouter continueAfter="false">
+                <conditionalRoute asynchronous="true" breakRoute="false">
+                    <condition>
+                        <equal source="get-property('anoobra')" type="param" value="get-property('uri.var.ano')"/>
+                    </condition>
+                    <target sequence="default"/>
+                </conditionalRoute>
+            </conditionalRouter>
+            <property description="Property Titulo of Obra" expression="//*[starts-with(name(), 'titulo')]" name="titleobra" scope="default" type="STRING"/>
+            <filter xpath="//*[get-property('anoobra')=get-property('uri.var.ano') and get-property('titleobra')=get-property('uri.var.titulo')] ">
+                <then>
+                    <log description="Log success" level="custom">
+                        <property expression="get-property('anoobra')" name="Log Validated Ano"/>
+                        <property expression="get-property('uri.var.ano')" name="URIANO"/>
+                        <property expression="get-property('uri.var.titulo')" name="URITITLE"/>
+                        <property expression="get-property('titleobra')" name="Log Validated Title"/>
+                    </log>
+                </then>
+                <else/>
+            </filter>
+        </sequence>
+    </foreach>  -->
     <log description="End">
         <property name="Polo3Status" value="ENDING..."/>
     </log>

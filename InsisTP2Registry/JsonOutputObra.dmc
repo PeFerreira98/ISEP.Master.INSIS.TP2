@@ -1,22 +1,48 @@
 map_S_root_S_root = function(){ 
 var outputroot={};
 
-var count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907 = 0;
+var count_i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764 = 0;
+var count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c_i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764 = 0;
+var count_i_EstadosID_7d8dbfdf_02a4_402a_b050_86671f4fa7c1_i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764 = 0;
 outputroot =  {};
-outputroot.obras =  {};
-outputroot.obras.obra =  [];
+outputroot.obra =  [];
 
-for(i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907 in inputroot){
-outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907] =  {};
-outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].id = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].id;
-outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].ISBN = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].ISBN;
-outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].Title = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907].Title;
-outputroot.obras.obra[count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907]['Ano de Publicação'] = inputroot[i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907]['Ano de Publicação'];
+for(i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764 in inputroot){
+var count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c = 0;
+var count_i_EstadosID_7d8dbfdf_02a4_402a_b050_86671f4fa7c1 = 0;
 
-count_i_inputroot_63dad412_eb57_4d3f_9c5d_dede52998907++;
+for(i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c in inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].ID_autores){
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c] =  {};
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].id = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].id;
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].ID_autores = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].ID_autores[i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c];
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].ISBN = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].ISBN;
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].Title = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].Title;
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c]['Preço1'] = Number(inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764]['Preço1']);
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].tipoID = Number(inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].tipoID);
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].EstadosID = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].EstadosID[i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c];
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c].ID_AdC = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].ID_AdC;
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c]['_exemplares'] = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764]['# exemplares'];
+outputroot.obra[count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c]['Ano_de_Publicação'] = inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764]['Ano de Publicação'];
+
+count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c++;
+count_i_ID_autores_bacb7b8d_821c_4d3e_91ef_bb48c95ffd5c_i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764++;
+}
+
+for(i_EstadosID_7d8dbfdf_02a4_402a_b050_86671f4fa7c1 in inputroot[i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764].EstadosID){
+
+count_i_EstadosID_7d8dbfdf_02a4_402a_b050_86671f4fa7c1++;
+count_i_EstadosID_7d8dbfdf_02a4_402a_b050_86671f4fa7c1_i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764++;
+}
+
+count_i_inputroot_bfc044fc_f5a4_4113_920c_1f6be4de4764++;
 }
 return outputroot;
 };
+
+
+
+
+
 
 
 
