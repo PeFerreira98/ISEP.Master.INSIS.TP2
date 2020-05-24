@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/fornecedor" name="InsisFornecedorAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence/>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/1/{isbn}">
+        <inSequence>
+            <log description="Log Route Param" level="custom">
+                <property expression="get-property('uri.var.isbn')" name="uri.var.isbn"/>
+            </log>
+            <sequence key="Fornecedor1Get"/>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/2">
+        <inSequence>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/3">
+        <inSequence>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>
