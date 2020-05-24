@@ -20,8 +20,12 @@
             <respond/>
         </faultSequence>
     </resource>
-    <resource methods="GET" uri-template="/2">
+    <resource methods="GET" uri-template="/2/{isbn}">
         <inSequence>
+            <log description="Log Route Param" level="custom">
+                <property expression="get-property('uri.var.isbn')" name="uri.var.isbn"/>
+            </log>
+            <sequence key="Fornecedor2Get"/>
             <send/>
         </inSequence>
         <outSequence>
@@ -31,8 +35,12 @@
             <respond/>
         </faultSequence>
     </resource>
-    <resource methods="GET" uri-template="/3">
+    <resource methods="GET" uri-template="/3/{isbn}">
         <inSequence>
+            <log description="Log Route Param" level="custom">
+                <property expression="get-property('uri.var.isbn')" name="uri.var.isbn"/>
+            </log>
+            <sequence key="Fornecedor3Get"/>
             <send/>
         </inSequence>
         <outSequence>

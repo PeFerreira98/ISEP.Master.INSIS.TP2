@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="Fornecedor3Get" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="Start">
+        <property name="Fornecedor3Status" value="STARTING..."/>
+    </log>
+    <call>
+        <endpoint key="Fornecedor3GetAll"/>
+    </call>
+    <log description="End">
+        <property name="Fornecedor3Status" value="ENDING..."/>
+    </log>
+</sequence>

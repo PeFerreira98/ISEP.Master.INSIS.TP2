@@ -44,4 +44,16 @@
     <artifact name="Fornecedor1GetByIsbn" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/endpoints/Fornecedor1GetByIsbn.xml</file>
     </artifact>
+    <artifact name="Fornecedor2Get" groupId="com.example.InsisTP2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Fornecedor2Get.xml</file>
+    </artifact>
+    <artifact name="Fornecedor2GetAll" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Fornecedor2GetAll.xml</file>
+    </artifact>
+    <artifact name="Fornecedor3GetAll" groupId="com.example.InsisTP2.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Fornecedor3GetAll.xml</file>
+    </artifact>
+    <artifact name="Fornecedor3Get" groupId="com.example.InsisTP2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Fornecedor3Get.xml</file>
+    </artifact>
 </artifacts>
