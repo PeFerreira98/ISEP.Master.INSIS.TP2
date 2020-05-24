@@ -72,10 +72,46 @@
             <sequence key="defaultFaultSequence"/>
         </faultSequence>
     </resource>
-    <resource methods="GET">
-        <inSequence/>
-        <outSequence/>
-        <faultSequence/>
+    <resource methods="GET" uri-template="/1">
+        <inSequence>
+            <sequence key="ClonePolo1"/>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/2/{ano}/{titulo}">
+        <inSequence>
+            <log description="Log Route Param" level="custom">
+                <property name="RequestLog" value="Get Obra Log"/>
+                <property expression="get-property('uri.var.titulo')" name="uri.var.titulo"/>
+                <property expression="get-property('uri.var.ano')" name="uri.var.ano"/>
+            </log>
+            <sequence key="ClonePolo2"/>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
+    </resource>
+    <resource methods="GET" uri-template="/3">
+        <inSequence>
+            <sequence key="ClonePolo3"/>
+            <send/>
+        </inSequence>
+        <outSequence>
+            <respond/>
+        </outSequence>
+        <faultSequence>
+            <respond/>
+        </faultSequence>
     </resource>
     <resource methods="GET" uri-template="/3/{ano}/{titulo}">
         <inSequence>
