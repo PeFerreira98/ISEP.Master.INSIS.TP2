@@ -54,7 +54,7 @@
                 <completeCondition>
                     <messageCount max="2" min="2"/>
                 </completeCondition>
-                <onComplete enclosingElementProperty="closingprop" expression="//*[starts-with(name(), 'id')]">
+                <onComplete enclosingElementProperty="closingprop" expression="json-eval($.obras..id)&#xa;">
                     <log description="Inside AGG Mediator" level="custom">
                         <property name="InsideAGG" value="Log Inside AGG Mediator"/>
                     </log>
