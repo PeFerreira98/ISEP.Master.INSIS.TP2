@@ -1,0 +1,81 @@
+<data name="Fornecedor2" serviceNamespace="Fornecedor2" transports="http https local">
+    <description>                                Data Service to Fornecedor2.xls&#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                &#xd;                                </description>
+    <config enableOData="false" id="fornecedor2">
+       <property name="excel_datasource">/home/wso2carbon/wso2ei-6.6.0/samples/Fornecedor2.xls</property>
+    </config>
+    <config enableOData="false" id="fornecedor2query">
+       <property name="driverClassName">org.wso2.carbon.dataservices.sql.driver.TDriver</property>
+       <property name="url">jdbc:wso2:excel:filePath=/home/wso2carbon/wso2ei-6.6.0/samples/Fornecedor2.xls</property>
+    </config>
+    <query id="allfornecedores" useConfig="fornecedor2">
+       <excel>
+          <workbookname>pub</workbookname>
+          <hasheader>true</hasheader>
+          <startingrow>2</startingrow>
+          <maxrowcount>170</maxrowcount>
+          <headerrow>1</headerrow>
+       </excel>
+       <result element="Fornecedores" rowName="Fornecedor">
+          <element column="id" name="id" xsdType="long"/>
+          <element column="titulo" name="titulo" xsdType="string"/>
+          <element column="preco" name="preco" xsdType="double"/>
+          <element column="encad" name="encad" xsdType="integer"/>
+          <element column="ano" name="ano" xsdType="integer"/>
+       </result>
+    </query>
+    <query id="allencadquery" useConfig="fornecedor2">
+       <excel>
+          <workbookname>encad</workbookname>
+          <hasheader>true</hasheader>
+          <startingrow>2</startingrow>
+          <maxrowcount>6</maxrowcount>
+          <headerrow>1</headerrow>
+       </excel>
+       <result element="Encadernacoes" rowName="Encadernacao">
+          <element column="id" name="id" xsdType="integer"/>
+          <element column="descr" name="descr" xsdType="string"/>
+       </result>
+    </query>
+    <query id="fornecedorbyid" useConfig="fornecedor2query">
+       <sql>SELECT id, titulo, preco, encad, ano FROM pub WHERE id=?</sql>
+       <result element="Fornecedores" rowName="Fornecedor">
+          <element column="id" name="id" xsdType="string"/>
+          <element column="titulo" name="titulo" xsdType="string"/>
+          <element column="preco" name="preco" xsdType="string"/>
+          <element column="encad" name="encad" xsdType="string"/>
+          <element column="ano" name="ano" xsdType="string"/>
+       </result>
+       <param name="id" optional="false" sqlType="STRING"/>
+    </query>
+    <query id="encadbyid" useConfig="fornecedor2query">
+       <sql>SELECT id, descr FROM encad WHERE id=?</sql>
+       <result element="Encardenacoes" rowName="Encardenacao">
+          <element column="id" name="id" xsdType="string"/>
+          <element column="descr" name="descr" xsdType="string"/>
+       </result>
+       <param name="id" optional="false" sqlType="STRING"/>
+    </query>
+    <operation name="GetFornecedores">
+       <call-query href="allfornecedores"/>
+    </operation>
+    <operation name="GetEncads">
+       <call-query href="allencadquery"/>
+    </operation>
+    <resource method="GET" path="/getpubbyid">
+       <call-query href="fornecedorbyid">
+          <with-param name="id" query-param="id"/>
+       </call-query>
+    </resource>
+    <resource method="GET" path="/allpubs">
+       <call-query href="allfornecedores"/>
+    </resource>
+    <resource method="GET" path="/getencadbyid">
+       <call-query href="encadbyid">
+          <with-param name="id" query-param="id"/>
+       </call-query>
+    </resource>
+    <resource method="GET" path="/allencad">
+       <call-query href="allencadquery"/>
+    </resource>
+ </data>
+ 
